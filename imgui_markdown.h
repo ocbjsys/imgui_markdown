@@ -985,19 +985,14 @@ namespace ImGui
                 {
                     ImGui::PushFont( fmt.font );
                 }
-                ImGui::NewLine();
             }
             else
             {
                 if( fmt.separator )
                 {
                     ImGui::Separator();
-                    ImGui::NewLine();
                 }
-                else
-                {
-                    ImGui::NewLine();
-                }
+
                 if( fmt.font )
                 {
                     ImGui::PopFont();
