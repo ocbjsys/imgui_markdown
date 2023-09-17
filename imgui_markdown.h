@@ -282,7 +282,7 @@ namespace ImGui
         const MarkdownConfig*   config  = NULL;
     };
 
-    typedef void                MarkdownLinkCallback( MarkdownLinkCallbackData data );    
+    typedef void                MarkdownLinkCallback( const MarkdownLinkCallbackData& data );    
     typedef void                MarkdownTooltipCallback( MarkdownTooltipCallbackData data );
 
     inline void defaultMarkdownTooltipCallback( MarkdownTooltipCallbackData data_ )
